@@ -16,11 +16,17 @@
                  "So are you.";
       //It will automatically get combined.
 
+5. Next is conditional statements, and looping , for which, the amount of familiarity is already enough.
 
-
-5. Functions or methods in dart.
+6. Functions or methods in dart.
   a. Functions in dart are objects.
   b. So, a function can be assigned to a variable, so a variable in dart can store a function as well.
   c. Function can be passed as parameter to some other function.
   d. All function in dart return some value. if no return value, then function returns 'null'.
   e. main() is also a function and is the entry point of the application. it wil be the first function that will be executed        always.
+  f. Using a '$' inside print, to display value of a variable written under print to display it's value, it's called                INTERPOLATION.
+  g. We can use short-hand syntax to define Expressions in functions, first, either by writing expression using interpolation      itself.
+7. Using short-hand syntax to define Expressions in functions.
+  a. Now, from above, we have, suppose a single expression remaining in function definition. So we can use 'Fat Arrow              notation '=>'. Whenever we use fat arrow, we should never use '{}', example:
+     void FindPerimeter(int l, int b) => print("The perimeter is ${2*(l+b)}");
+  b. 
