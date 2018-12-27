@@ -1,1 +1,26 @@
 #DartNotes
+
+"Everything is an object, in Dart."
+
+1. All the data types are objects. So whatever we see in dart are objects. So default values will be null unless we initialize    them.
+2. We can declare variables as in c++. Also, dart offers 'var' keyword, which lets the compiler automatically detect the          dataType of the value. If value is integer, age will be inferred as integer.
+3. Some examples : int, double, bool, String, var, etc.
+4. Literals
+  a. Defining something straightaway. example:
+      2;
+      "Jon"
+      1.6;
+      etc.
+  b. In dart, concatenating two strings does not need +. Example:
+      String a = "I am here"
+                 "So are you.";
+      //It will automatically get combined.
+
+
+
+5. Functions or methods in dart.
+  a. Functions in dart are objects.
+  b. So, a function can be assigned to a variable, so a variable in dart can store a function as well.
+  c. Function can be passed as parameter to some other function.
+  d. All function in dart return some value. if no return value, then function returns 'null'.
+  e. main() is also a function and is the entry point of the application. it wil be the first function that will be executed        always.
