@@ -2,6 +2,9 @@
 
 "Everything is an object, in Dart."
 
+Find syntax in https://github.com/smartherd/DartTutorial
+
+
 1. All the data types are objects. So whatever we see in dart are objects. So default values will be null unless we initialize    them.
 2. We can declare variables as in c++. Also, dart offers 'var' keyword, which lets the compiler automatically detect the          dataType of the value. If value is integer, age will be inferred as integer.
 3. Some examples : int, double, bool, String, var, etc.
@@ -29,4 +32,12 @@
 7. Using short-hand syntax to define Expressions in functions.
   a. Now, from above, we have, suppose a single expression remaining in function definition. So we can use 'Fat Arrow              notation '=>'. Whenever we use fat arrow, we should never use '{}', example:
      void FindPerimeter(int l, int b) => print("The perimeter is ${2*(l+b)}");
-  b. 
+8. Parameters in dart are of two types, Requred and Optional. Talking about Optional:
+  a. Of three types : Poitional, Named and Default parameters.
+  b. Optional Positional Parameters: To make a parameter optional, just enclose it in [], i.e. square brackets. If multiple        parameters to be made optional, enclose the full set in [].
+  c. Optional Named Parameters: Used to prevent errors if there are large number of parameters. Find syntax in                    https://github.com/smartherd/DartTutorial. The squence of named parameters does not matter. They can be written in any        order, because they have a unique name. For making named parameters, enclose the required parameters into '{}', i.e.          curly braces.
+  
+  
+  
+  
+  
