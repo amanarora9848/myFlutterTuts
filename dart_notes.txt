@@ -35,7 +35,14 @@ Find syntax in https://github.com/smartherd/DartTutorial
 8. Parameters in dart are of two types, Requred and Optional. Talking about Optional:
   a. Of three types : Poitional, Named and Default parameters.
   b. Optional Positional Parameters: To make a parameter optional, just enclose it in [], i.e. square brackets. If multiple        parameters to be made optional, enclose the full set in [].
-  c. Optional Named Parameters: Used to prevent errors if there are large number of parameters. Find syntax in                    https://github.com/smartherd/DartTutorial. The squence of named parameters does not matter. They can be written in any        order, because they have a unique name. For making named parameters, enclose the required parameters into '{}', i.e.          curly braces.
+  c. Optional Named Parameters: Used to prevent errors if there are large number of parameters. Find syntax in                    **https://github.com/smartherd/DartTutorial**. The squence of named parameters does not matter. They can be written in        any order, because they have a unique name. For making named parameters, enclose the required parameters into '{}', i.e.      curly braces.
+  d. Optional Default Parameters: Say we define 3 parameters, out of three, I give a value to one like p3 = 10. Then this          value will be taken as a default everytime, and we don't have to pass a value as a parameter everytime. If we want to        pass something else, then we have to give the paramater while calling the function as: 'p3:20', so on.
+9. Exception Handling in Dart.
+  a. When normal flow of program is disrupted and the application crashes. This occurs due to an exception. Some common            exceptions in dart are : DefferedLoadException, FormatException, IntegerDivisionByZeroException, IOException,                IsolateSpawnException and Timeout.
+  b. Under try{//code} block, we write the VulnerableToException code.
+  c. In case I know the name of the exception, we use the ON clause. Example : on IntegerDivisionByZero{//code} block.
+  d. Now, in case we are not sure what kind of exception we may get, we can use CATCH clause.
+  
   
   
   
